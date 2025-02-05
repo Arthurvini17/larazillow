@@ -2,7 +2,7 @@ services:
   - type: web
     name: laravel-app
     runtime: docker
-    repo: https://github.com/seu-usuario/seu-repo
+    repo: https://github.com/Arthurvini17/larazillow
     plan: free
     envVars:
       - key: APP_KEY
@@ -12,11 +12,11 @@ services:
       - key: DB_CONNECTION
         value: mysql
       - key: DB_HOST
-        value: your-db-host
+        value: 127.0.0.1
       - key: DB_DATABASE
-        value: your-db-name
+        value: larazillow
       - key: DB_USERNAME
-        value: your-db-user
+        value: root
       - key: DB_PASSWORD
         sync: false
     disk:
